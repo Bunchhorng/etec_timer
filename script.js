@@ -28,7 +28,7 @@ function startExam(){
   // Alert every 30 minutes
   let alertPoints = [];
 
-  for(let i = minutes - 30; i > 0; i -= 30){
+  for(let i = minutes - 1; i > 0; i -= 1){
     alertPoints.push(i * 60);
   }
 
