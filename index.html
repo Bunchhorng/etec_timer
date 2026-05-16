@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="km">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+
+  <title>Etec timer</title>
+  <link rel="icon" type="image/png" href="./image/etecLogo.png">
+  <!-- Khmer Font -->
+  <link href="https://fonts.googleapis.com/css2?family=Kantumruy+Pro:wght@400;500;700&display=swap" rel="stylesheet">
+
+  <!-- CSS -->
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <div class="container">
+
+    <!-- Header -->
+    <div class="header">
+
+      <!-- Logo -->
+      <div class="logo">
+        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRmfgEsISgcMna9mdI-t_XY7o-WkAI0ctitvg&s" alt="Logo">
+      </div>
+
+      <!-- Title -->
+      <div class="title">
+        <h1>អាហារូបករណ៍ជំនាន់ទី ៥</h1>
+        <p>5th Generation Scholarship</p>
+      </div>
+
+    </div>
+
+    <!-- Main Box -->
+    <div class="main-box">
+
+      <!-- Timer -->
+      <div class="timer" id="timer">
+        00 : 00 : 00
+      </div>
+
+      <!-- Controls -->
+      <div class="controls">
+
+        <input 
+          type="number" 
+          id="minutes" 
+          placeholder="Enter Minutes"
+        >
+
+        <button onclick="startExam()">
+          START
+        </button>
+
+      </div>
+
+    </div>
+
+  </div>
+
+  <!-- JS -->
+  <script src="script.js"></script>
+
+</body>
+</html>
